@@ -16,13 +16,13 @@ function ZuoraWeb() {
                 <CssBaseline />
                 <Box>
                     <Routes>
-                        <Route path="/" element={<SelectAccountType />} />
-                        <Route path="/enter-account-info" element={<EnterAccountInfo />} />
-                        <Route path="/select-plan" element={<SelectPlan />} />
-                        <Route path="/registration-confirmation" element={<RegistrationConfirmation />} />
-                        <Route path="/registration-completed" element={<RegistrationCompleted />} />
+                        <Route path="/zuora_web/" element={<SelectAccountType />} />
+                        <Route path="/zuora_web/enter-account-info" element={<EnterAccountInfo />} />
+                        <Route path="/zuora_web/select-plan" element={<SelectPlan />} />
+                        <Route path="/zuora_web/registration-confirmation" element={<RegistrationConfirmation />} />
+                        <Route path="/zuora_web/registration-completed" element={<RegistrationCompleted />} />
                         
-                        <Route path="/sample" element={<Sample />} />
+                        <Route path="/zuora_web/sample" element={<Sample />} />
                     </Routes>
                 </Box>
             </BrowserRouter>
