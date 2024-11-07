@@ -2,7 +2,7 @@
   "name": "zuora_web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shiontkkg.github.io/zuora_web/",
+  "homepage": "https://shiontkkg.github.io/zuora_web",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
