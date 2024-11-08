@@ -63,7 +63,8 @@ function RegistrationConfirmation() {
                     </Typography>
 
                     {/* コンテンツ */}
-                    <Box sx={{ mx: 12, my: 4, p: 1, borderRadius: 2, display: "flex", backgroundColor: 'lavender' }}>
+                    {form.planPrice == 0 && (
+                        <Box sx={{ mx: 12, my: 4, p: 1, borderRadius: 2, display: "flex", backgroundColor: 'lavender' }}>
                         <Box sx={{ m: 1, display: "flex", flexDirection: "column", flexGrow: 2 }}>
                             <Typography variant="body2" color="error">
                                 <b>便利な有償プランもおすすめです<br />
@@ -81,6 +82,7 @@ function RegistrationConfirmation() {
                             </Button>
                         </Box>
                     </Box>
+                )}
 
                     <Box sx={{ mx: 12, my: 4, p: 2, borderRadius: 2, backgroundColor: 'linen' }}>
                         <Typography variant="subtitle1" sx={{ textAlign: "center" }}>
